@@ -1,0 +1,76 @@
+.header{
+	padding-top: 0.05rem ;
+}
+.header .logo{
+	width: 0.83rem;
+	height: 0.3rem;
+	margin-left: .15rem;
+}
+.header .login {
+	font-size: .14rem;
+	line-height: .3rem;
+	margin-right: .15rem;
+}
+.header .nav{
+	height: .4rem;
+	margin-top: 0.05rem;
+}
+.header .nav li{
+	font-size: 0.146rem;
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: .4rem;
+	background-color: #ff7300;
+}
+.header .nav li a{
+	color: #fff;
+}
+.header .nav li.active{
+	background-color: #ff510c;
+}
+.header .search{
+	height: .4rem;
+	background-color: #f4f4f4;
+	padding: 0.07rem 0.12rem;
+	position: relative;
+}
+.header .search input{
+	width: 100%;
+	height: .26rem;
+	border-radius: .26rem;
+	outline: none;
+	border: none;
+	text-indent: 1em;
+	padding-right: 0.3rem;
+	font-size: .12rem;
+}
+.header .search i{
+	position: absolute;
+	top: 0.12rem;
+	right: 0.25rem;
+	color: #999;
+	font-size: 0.16rem;
+}
+.footer >div{
+	height: 0.35rem;
+	line-height: 0.35rem;
+	background-color: #ff7300;
+	text-align: center;
+}
+.footer >div a{
+	color: #ececec;
+	font-size: 0.13rem;
+	padding: 0 0.05rem;
+	border-right: 1px solid #ececec;
+	height: 0.15rem;
+}
+.footer >div a:last-child{
+	border: none;
+}
+.footer >p{
+	height: 0.45rem;
+	line-height: 0.45rem;
+	text-align: center;
+}
