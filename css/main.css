@@ -144,10 +144,38 @@ mip-vd-tabs .mip-vd-tabs-nav .mip-vd-tabs-nav-selected {
 }
 
 
-
-
-
-
+.login-top{
+  height: 0.43rem;
+  background-color: #ff7300;
+  line-height: 0.23rem;
+  color: #fff;
+  padding: 0.1rem 0.15rem;
+}
+.login-top .logo{
+  width: .75rem;
+  height: .25rem;
+  margin: 0 auto;
+}
+.login-top span{
+  font-size: .14rem;
+}
+.login-form{
+  background-color: #f4f4f4;
+  padding: 0.25rem;
+}
+.login-form p{
+  height: 0.35rem;
+  line-height: 0.45rem;
+}
+.login-form input{
+  width: 100%;
+  outline: none;
+  font-size: 0.13rem;
+}
+.login-form input[type='submit']{
+  background-color: #ff7300;
+  color: #fff;
+}
 
 
 

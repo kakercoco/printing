@@ -89,8 +89,11 @@ html {
 	font-weight: bold;
 }
 .main-color{
-    color: #ff7300;
+    color: #ff7300 !important;
 }
 .main-bgc{
-    background-color: #ff7300;
+    background-color: #ff7300 !important;
+}
+.c-fff{
+    color: #fff;
 }
