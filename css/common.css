@@ -54,6 +54,7 @@
 	font-size: 0.16rem;
 }
 .footer >div{
+	margin-top: 0.2rem;
 	height: 0.35rem;
 	line-height: 0.35rem;
 	background-color: #ff7300;

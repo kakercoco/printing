@@ -125,6 +125,8 @@ mip-vd-tabs .mip-vd-tabs-nav .mip-vd-tabs-nav-selected {
   height: 0.25rem;
   overflow: hidden;
   line-height: 0.25rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .index-list .company li{
   height: 1rem;
@@ -171,22 +173,86 @@ mip-vd-tabs .mip-vd-tabs-nav .mip-vd-tabs-nav-selected {
   width: 100%;
   outline: none;
   font-size: 0.13rem;
+  padding: 0.1rem;
+  border-radius: 5px;
 }
 .login-form input[type='submit']{
   background-color: #ff7300;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.main-title{
+  height: 0.4rem;
+  line-height: 0.4rem;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  padding: 0 0.15rem;
+}
+.main-title span{
+  font-size: 0.146rem;
+  font-weight: bold;
+  height: 0.15rem;
+  display: inline-block;
+  border-left: 3px solid #ff7300;
+  line-height: 0.15rem;
+  padding-left: 0.05rem;
+}
+.main-title a{
+  color: #999;
+}
+.company-index .classify{
+  padding: 0.15rem;
+}
+.company-index .classify li{
+  float: left;
+  line-height: 0.2rem;
+}
+.company-index .classify li a{
+  color: #23375c;
+}
+.company-index .classify li a.red{
+  color: #d71902;
+}
+.register-form input{
+  margin-bottom: 0.15rem;
+}
+.register-type p{
+  line-height: initial;
+}
+.register-type li{
+  background-color: #fff;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
+.register-type li a{
+  display: block;
+}
+.crumbs{
+  height: 0.35rem;
+  line-height: .35rem;
+  padding: 0 0.15rem;
+}
+.crumbs .red{
+  color: #d71902;
+}
+.classify-list{
+  padding: 0.15rem;
+}
+.classify-list li{
+  float: left;
+  width: 32%;
+  height: 0.3rem;
+  margin-right: 2%;
+  line-height: .3rem;
+  background-color: #f4f4f4;
+  border-radius: 0.05rem;
+  text-align: center;
+  margin-bottom: 0.1rem;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+.classify-list li:nth-of-type(3n){
+  margin-right: 0;
+}
 
 
