@@ -26,6 +26,7 @@
 }
 .header .nav li a{
 	color: #fff;
+	display: block;
 }
 .header .nav li.active{
 	background-color: #ff510c;
