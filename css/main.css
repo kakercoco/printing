@@ -664,9 +664,6 @@ mip-vd-tabs .mip-vd-tabs-nav .mip-vd-tabs-nav-selected {
   left: 0;
 }
 .infor-read li:nth-of-type(5n+1)::before{
-
-}
-.infor-read li:nth-of-type(5n+1)::before{
   background-color: #ff510c;
 }
 .infor-read li:nth-of-type(5n+2)::before{
